@@ -16,12 +16,48 @@
     background-color:#FFCD69;
 }
 
-
-
+.fire img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
 
 .second-section img{
     border-radius: 50%;
     height: auto;
     max-width: 20%;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Below is for the footer */
+.flex-container1{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    margin: 20px;
+    padding: 20px;
+    background-color:#F9E7DC;
+}
+
+.flex-container1 > div{
+    background-color:#FF764E;
+}
+.flex-container1 > div1{
+    background-color:#5ED3EB;
+}
+.flex-container1 > div2{
+    background-color:#FFCD69;
+}
+
