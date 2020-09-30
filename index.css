@@ -2,21 +2,41 @@
     display: flex;
     justify-content: space-between;
     color:white;
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
+    text-align: center;
+    font-size:12px;  
 }
 
 .flex-container > div{
     background-color:#FF764E;
+    border-radius: 15px;    
+    padding: 20px; 
+    width: 50px;
+    height: 8px;
 }
 .flex-container > div1{
     background-color:#5ED3EB;
+    border-radius: 15px;    
+    padding: 20px; 
+    width: 50px;
+    height: 8px;
+    
 }
 .flex-container > div2{
     background-color:#FFCD69;
+    border-radius: 15px;    
+    padding: 20px; 
+    width: 50px;
+    height: 8px;
 }
 h1{
     font-family:Chelsea Market;
+}
+.third-section{
+    text-align: center;
+    background-color:#DDB9A3;
+    color: white;
 }
 
 .fire img{
@@ -24,6 +44,12 @@ h1{
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+}
+.fire p{
+    text-align: center;
+}
+.RV p{
+    text-align: center;
 }
 span{
     font-weight:bold;
@@ -33,7 +59,12 @@ span{
     height: auto;
     max-width: 20%;
 }
-
+.RV img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
 
 
 
@@ -58,11 +89,23 @@ span{
 
 .flex-container1 > div{
     background-color:#FF764E;
+    border-radius: 15px;    
+    padding: 20px; 
+    width: 50px;
+    height: 8px;
 }
 .flex-container1 > div1{
     background-color:#5ED3EB;
+    border-radius: 15px;    
+    padding: 20px; 
+    width: 50px;
+    height: 8px;
 }
 .flex-container1 > div2{
     background-color:#FFCD69;
+    border-radius: 15px;    
+    padding: 20px; 
+    width: 50px;
+    height: 8px;
 }
 
