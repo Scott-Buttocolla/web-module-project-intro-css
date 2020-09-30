@@ -15,6 +15,9 @@
 .flex-container > div2{
     background-color:#FFCD69;
 }
+h1{
+    font-family:Chelsea Market;
+}
 
 .fire img{
     display:block;
@@ -22,7 +25,9 @@
     margin-right: auto;
     width: 20%;
 }
-
+span{
+    font-weight:bold;
+}
 .second-section img{
     border-radius: 50%;
     height: auto;
