@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.flex-container > div{
+    background-color:#FF764E;
+}
+.flex-container > div1{
+    background-color:#5ED3EB;
+}
+.flex-container > div2{
+    background-color:#FFCD69;
+}
+
+
+
+
+.second-section img{
+    border-radius: 50%;
+    height: auto;
+    max-width: 20%;
+
+}
