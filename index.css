@@ -1,146 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
 
 
 
-
-
-
-*{
-    border: 1px solid black;
+body{
+    max-width: 800px;
+    margin:auto;
+    font-family: 'Roboto Mono', monospace;
 }
-.container{       
-    color:white;
-    text-align:center;
-    font-size:20px; 
+
+.header, .footer{
+    margin:3%;
+    width:80%;
+    display: inline-block;     
+    text-align: center;    
 }
-.container > div{ 
+header, footer{
+    display: inline-block;
+    text-align: center;
+    width:100%
+}
+footer{
+    background-color: #F9E7DC ;
+}
+.box:nth-child(1){ 
     background-color:#FF764E;
 }
-.container > div1{
+.box:nth-child(2){
     background-color:#5ED3EB;
 }
-.container > div2{
+.box:nth-child(3){
     background-color:#FFCD69;
 }
 .box{
-    border-radius: 1em;     
-    width: 10%;    
-    padding: 15px;    
-    display: inline-block;
-    margin-right: 15%;
+    display:inline-block;
+    margin-right:6%;
+    margin-left:6%;
+    border-radius: 10px;
     text-align: center;
+    padding:5px;
+    width:14%;
+    height: 100%;
+    color:white;
+    font-size:11px;
 }
-
-
-.second-section{
-    padding-top: 50px;
-    padding-left: 30px;
+.circle-mountains{
     display: inline-block;
 }
-.second-section img{
+.circle-mountains img{
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-    max-width: 20%;  
+}
+.text{
     display: inline-block;
+    max-width: 50%;
+}
+.text h1{
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+.text p{
+    margin: 20px;
+    font-size: 1.5rem;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:48px ;
-    text-align: center; 
-    display: inline-block;  
+    font-size:48px ;      
 }
-.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 20em;
-    text-align: center;
+.mountain{
+    max-height: 400px;
+    overflow: hidden;
 }
-.blocktext1{
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em;
-    text-align: center;
-    margin-bottom: 2em;
+.mountain img{
+    width: 100%;
 }
-
-.third-section{
+.third-section p{
     text-align: center;
     background-color:#DDB9A3;
     color: white;
+    padding: 15px;
 }
-
-.fire img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+.info{
+    margin:25px 0px;
 }
-.fire p{
+.info div{
+    margin:10px 0;
+}
+.info img{
+    height: 100px;
+    width: 100px;    
+}
+.fire, .fire p{
     text-align: center;
+}
+.info div p{
+    max-width: 300px;
+    margin: 0 auto;
 }
 .RV p{
     text-align: center;
-}
-span{
+}span{
     font-weight:bold;
 }
-
 .RV img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* Below is for the footer */
-.flex-container1{
-    display: flex;
-    justify-content: space-between;
-    color:white;
-    margin: 20px;
-    padding: 20px;
-    background-color:#F9E7DC;
-}
-
-.flex-container1 > div{
-    background-color:#FF764E;
-    border-radius: 15px;    
-    padding: 20px; 
-    width: 50px;
-    height: 8px;
-}
-.flex-container1 > div1{
-    background-color:#5ED3EB;
-    border-radius: 15px;    
-    padding: 20px; 
-    width: 50px;
-    height: 8px;
-}
-.flex-container1 > div2{
-    background-color:#FFCD69;
-    border-radius: 15px;    
-    padding: 20px; 
-    width: 50px;
-    height: 8px;
-}
-
-
-
-
-
-
-
-
-
 
