@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
+
+
+body{
+    max-width: 800px;
+    margin:auto;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header, .footer{
+    margin:3%;
+    width:80%;
+    display: inline-block;     
+    text-align: center;    
+}
+header, footer{
+    display: inline-block;
+    text-align: center;
+    width:100%
+}
+footer{
+    background-color: #F9E7DC ;
+}
+.box:nth-child(1){ 
+    background-color:#FF764E;
+}
+.box:nth-child(2){
+    background-color:#5ED3EB;
+}
+.box:nth-child(3){
+    background-color:#FFCD69;
+}
+.box{
+    display:inline-block;
+    margin-right:6%;
+    margin-left:6%;
+    border-radius: 10px;
+    text-align: center;
+    padding:5px;
+    width:14%;
+    height: 100%;
+    color:white;
+    font-size:11px;
+}
+.circle-mountains{
+    display: inline-block;
+}
+.circle-mountains img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.text{
+    display: inline-block;
+    max-width: 50%;
+}
+.text h1{
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+.text p{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:48px ;      
+}
+.mountain{
+    max-height: 400px;
+    overflow: hidden;
+}
+.mountain img{
+    width: 100%;
+}
+.third-section p{
+    text-align: center;
+    background-color:#DDB9A3;
+    color: white;
+    padding: 15px;
+}
+.info{
+    margin:25px 0px;
+}
+.info div{
+    margin:10px 0;
+}
+.info img{
+    height: 100px;
+    width: 100px;    
+}
+.fire, .fire p{
+    text-align: center;
+}
+.info div p{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.RV p{
+    text-align: center;
+}span{
+    font-weight:bold;
+}
+.RV img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
